@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AR Interactive Storybook for Plant Learning</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="logo">AR Plant Storybook</div>
+
+    <nav>
+      <a href="#identity">Identity</a>
+      <a href="#problem">Problem</a>
+      <a href="#solution">Solution</a>
+      <a href="#visuals">Visuals</a>
+      <a href="#prototype">Prototype</a>
+      <a href="#research">Research</a>
+      <a href="#future">Future</a>
+      <a href="#downloads">Downloads</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero section-anchor" id="identity">
+    <div class="hero-content reveal-left">
+      <p class="section-label">Research Digital Showcase</p>
+
+      <h1>Handheld Augmented Reality Storybook for Plant Learning</h1>
+
+      <p class="tagline">
+        A child-centered AR learning experience that helps primary learners understand plant growth,
+        environmental responsibility, and ecological care through storytelling, interaction, and affective visualization.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#solution" class="btn primary-btn">Explore Project</a>
+        <a href="#focus" class="btn secondary-btn">My Component</a>
+      </div>
+    </div>
+
+    <div class="hero-image reveal-right floating">
+      <img src="assets/arplantvisual.png" alt="AR plant learning visual">
+    </div>
+  </section>
+
+  <!-- PROJECT OVERVIEW -->
+  <section class="section section-anchor" id="overview">
+    <div class="section-header reveal-up">
+      <p class="section-label">Project Identity</p>
+      <h2>Project Overview</h2>
+    </div>
+
+    <div class="overview-grid">
+      <div class="card large-card reveal-up">
+        <h3>Project Description</h3>
+        <p>
+          This project presents a handheld Augmented Reality interactive storybook designed to help children aged 6–8
+          understand plant growth and environmental concepts in an engaging and intuitive way. By combining physical
+          storybook pages with digital AR content, the system creates an immersive learning experience that goes beyond
+          traditional text-based learning.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-1">
+        <h3>Goal</h3>
+        <p>
+          To improve children’s understanding of plant growth through interactive AR storytelling,
+          emotional visual cues, and real-world environmental simulation.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-2">
+        <h3>Scope & Deliverables</h3>
+        <p>
+          AR prototype, 3D plant assets, interaction flows, visual workflows, demonstration materials,
+          and supporting research documentation.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-1">
+        <h3>Target Audience</h3>
+        <p>
+          Primary school children, teachers, parents, educational institutions, future researchers,
+          and digital learning stakeholders.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-2">
+        <h3>Visual Identity</h3>
+        <p>
+          The project uses a nature-inspired visual style with green tones, soft lighting,
+          plant-based imagery, clean typography, and child-friendly visuals.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section alt-section">
+    <div class="section-header reveal-up">
+      <p class="section-label">Team Contribution</p>
+      <h2>Team Members & Roles</h2>
+    </div>
+
+    <div class="team-grid">
+      <div class="team-card reveal-up">
+        <h3>Wijayarathne K.N.</h3>
+        <h4>Hybrid Interaction Framework</h4>
+        <p>
+          Enables seamless interaction between the physical storybook and AR content through touch,
+          gestures, and real-world anchoring.
+        </p>
+      </div>
+
+      <div class="team-card highlight-card reveal-up delay-1">
+        <span class="badge">Primary Focus of This Profile</span>
+        <h3>Palliyaguruge S.N.</h3>
+        <h4>Affective Visualization Model</h4>
+        <p>
+          Transforms plant health and environmental conditions into emotion-driven visual and audio cues
+          to enhance understanding and empathy.
+        </p>
+      </div>
+
+      <div class="team-card reveal-up delay-2">
+        <h3>Amarawardhane A.S.</h3>
+        <h4>Narrative Engine</h4>
+        <p>
+          Drives a dynamic story-based learning experience where user actions influence plant growth
+          and story outcomes.
+        </p>
+      </div>
+
+      <div class="team-card reveal-up delay-3">
+        <h3>Dissanayaka D.M.D.D.</h3>
+        <h4>Context-Aware Simulation</h4>
+        <p>
+          Maps real-world environmental data such as light and movement into realistic plant behavior
+          within the AR system.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM -->
+  <section class="section section-anchor" id="problem">
+    <div class="section-header reveal-up">
+      <p class="section-label">Problem & Need</p>
+      <h2>Why Is This Project Needed?</h2>
+    </div>
+
+    <div class="problem-feature reveal-up">
+      <div class="problem-text">
+        <h3>Why is it difficult for children to understand plant growth?</h3>
+        <p>
+          Children aged 6–8 often struggle to understand complex environmental concepts such as plant growth,
+          health, photosynthesis, and ecological balance when they are taught through static text-based methods.
+          These concepts are abstract and difficult to visualize, making it challenging for young learners
+          to understand how plants grow, respond to their environment, and require care.
+        </p>
+      </div>
+
+      <div class="problem-image-box">
+        <img src="assets/boredChild.png" alt="Child not interested in textbook learning">
+      </div>
+    </div>
+
+    <div class="two-column">
+      <div class="reveal-left">
+        <h3>Existing Gaps in Current Solutions</h3>
+        <ul>
+          <li>Traditional materials often depend on static diagrams and text.</li>
+          <li>Some AR learning tools lack emotional engagement and child-centered interaction.</li>
+          <li>VR headsets may create safety and comfort issues for young learners.</li>
+          <li>Existing systems may not clearly connect real-world environmental conditions with plant behavior.</li>
+        </ul>
+      </div>
+
+      <div class="info-box reveal-right">
+        <h3>Why This Problem Matters</h3>
+
+        <div class="mini-point">
+          <h4>Building Environmental Awareness</h4>
+          <p>Understanding plant growth at an early age helps children develop awareness and appreciation for nature.</p>
+        </div>
+
+        <div class="mini-point">
+          <h4>Impact on Learning Effectiveness</h4>
+          <p>When concepts are not clearly understood, learning becomes less engaging and less effective.</p>
+        </div>
+
+        <div class="mini-point">
+          <h4>Lack of Emotional Connection</h4>
+          <p>Without meaningful experiences, children may struggle to form empathy toward nature and environmental care.</p>
+        </div>
+
+        <div class="mini-point">
+          <h4>Long-Term Consequences</h4>
+          <p>This gap can affect future attitudes and reduce environmentally responsible decision-making.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="subsection-heading reveal-up">
+      <h3>Who Are the Intended Users / Beneficiaries?</h3>
+      <p>The project is designed to benefit several groups involved in children’s environmental learning.</p>
+    </div>
+
+    <div class="audience-grid">
+      <div class="audience-card reveal-up">
+        <img src="assets/userChild.png" alt="Children users">
+        <h3>Children Aged 6–8</h3>
+        <p>Primary learners studying plant growth and environmental responsibility.</p>
+      </div>
+
+      <div class="audience-card reveal-up delay-1">
+        <img src="assets/userTeacher.png" alt="Teachers">
+        <h3>Teachers</h3>
+        <p>Educators who need interactive tools to explain abstract biological concepts.</p>
+      </div>
+
+      <div class="audience-card reveal-up delay-2">
+        <img src="assets/userParent.png" alt="Parents">
+        <h3>Parents</h3>
+        <p>Guardians who can support environmental learning at home.</p>
+      </div>
+
+      <div class="audience-card reveal-up delay-3">
+        <img src="assets/userSchool.png" alt="Schools">
+        <h3>Schools</h3>
+        <p>Educational institutions interested in interactive and future-ready learning methods.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUTION -->
+  <section class="section alt-section section-anchor" id="solution">
+    <div class="section-header reveal-up">
+      <p class="section-label">Solution Overview</p>
+      <h2>Proposed AR Learning System</h2>
+    </div>
+
+    <div class="two-column">
+      <div class="reveal-left">
+        <p>
+          The proposed solution is a handheld Augmented Reality storybook that allows children to interact with plant
+          growth concepts through storybook pages, AR visuals, user actions, and real-world environmental inputs.
+          Instead of only reading about plants, children can see virtual plants grow, wilt, recover, and respond to their care.
+        </p>
+
+        <p>
+          The system combines storytelling, physical-digital interaction, emotional visualization, and sensor-based
+          simulation to create a learning experience that is understandable, engaging, and meaningful for young learners.
+        </p>
+
+        <h3>Key Features</h3>
+        <ul>
+          <li>AR-based plant learning experience</li>
+          <li>Physical storybook page interaction</li>
+          <li>Emotion-driven plant visualization</li>
+          <li>Dynamic story progression</li>
+          <li>Real-world light and motion-based simulation</li>
+          <li>Child-friendly visuals and feedback</li>
+        </ul>
+      </div>
+
+      <div class="diagram-stack reveal-right">
+        <div class="image-card">
+          <img src="assets/systemDiagram.jpeg" alt="System diagram">
+          <p class="caption">System Diagram</p>
+        </div>
+
+        <div class="image-card">
+          <img src="assets/componentDiagram.png" alt="Affective visualization diagram">
+          <p class="caption">Affective Visualization Diagram</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="component-grid">
+      <div class="component-card reveal-up">
+        <h3>Hybrid Interaction Framework</h3>
+        <p>Connects the physical storybook with AR content using touch, gestures, and spatial anchoring.</p>
+      </div>
+
+      <div class="component-card focus-component reveal-up delay-1">
+        <h3>Affective Visualization Model</h3>
+        <p>Converts plant health, stress, and recovery into emotional visual and audio cues.</p>
+      </div>
+
+      <div class="component-card reveal-up delay-2">
+        <h3>Narrative Engine</h3>
+        <p>Creates story-based learning where user choices affect plant growth and outcomes.</p>
+      </div>
+
+      <div class="component-card reveal-up delay-3">
+        <h3>Context-Aware Simulation</h3>
+        <p>Uses environmental data such as light and movement to influence virtual plant behavior.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MY COMPONENT -->
+  <section class="section focus-section section-anchor" id="focus">
+    <div class="section-header light-header reveal-up">
+      <p class="section-label">My Component</p>
+      <h2>Affective Visualization Model</h2>
+    </div>
+
+    <div class="two-column">
+      <div class="reveal-left">
+        <p>
+          My component focuses on designing an affective visualization model that translates biological plant conditions
+          into emotion-responsive visual and audio cues. This helps children understand whether a plant is healthy,
+          stressed, or recovering in a way that feels clear, emotional, and age-appropriate.
+        </p>
+
+        <p>
+          By using color changes, glow effects, movement, plant expressions, animations, and sound feedback, the model
+          supports both learning and empathy. The goal is to help children emotionally connect with plants and understand
+          the importance of care, sunlight, water, and environmental responsibility.
+        </p>
+
+        <h3>Visualization States</h3>
+
+        <div class="state-grid">
+          <div class="state-card healthy-card reveal-up">
+            <h4>Healthy State</h4>
+            <p>Bright colors, smooth movement, fresh leaves, gentle glow, and positive audio feedback.</p>
+          </div>
+
+          <div class="state-card stressed-card reveal-up delay-1">
+            <h4>Stressed State</h4>
+            <p>Dull colors, drooping leaves, weak motion, slow animation, and sad or low audio cues.</p>
+          </div>
+
+          <div class="state-card recovery-card reveal-up delay-2">
+            <h4>Recovery State</h4>
+            <p>Gradual color improvement, renewed movement, glow effects, and encouraging feedback.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-card dark-card reveal-right floating">
+        <img src="assets/plantEmotion.png" alt="Affective visualization model">
+        <p class="caption">Plant emotion-state visualization example</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISUALS WITH 12 IMAGE CAROUSEL -->
+  <section class="section section-anchor" id="visuals">
+    <div class="section-header reveal-up">
+      <p class="section-label">Visual / Interactive Media Presentation</p>
+      <h2>Visual Communication of the Project</h2>
+    </div>
+
+    <p class="section-intro reveal-up">
+      This section presents the project storyboard as a visual learning flow. The 12 storyboard frames show how the child interacts with the AR storybook, observes plant responses, and learns plant growth concepts through guided interaction.
+    </p>
+
+    <div class="storyboard-carousel reveal-up">
+      <div class="carousel-top">
+        <div>
+          <h3>12-Frame Storyboard</h3>
+          <p>Use the arrows or dots to explore the visual flow of the AR plant learning experience.</p>
+        </div>
+
+        <div class="carousel-counter">
+          <span id="currentSlide">01</span>
+          <span>/</span>
+          <span>12</span>
+        </div>
+      </div>
+
+      <div class="carousel-window">
+        <button class="carousel-btn prev-btn" type="button" aria-label="Previous storyboard image">
+          &#10094;
+        </button>
+
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide">
+            <img src="assets/storyboard-01.png" alt="Storyboard frame 1">
+            <div class="slide-caption">
+              <h3>Frame 01</h3>
+              <p>The cover page introduces the magical story, showing an ancient tree with a glowing sleeping seed hidden between its roots.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-02.png" alt="Storyboard frame 2">
+            <div class="slide-caption">
+              <h3>Frame 02</h3>
+              <p>The child discovers the glowing seed under the old tree, and the AR view makes the seed glow with a name tag: “The Magic Seed.”</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-03.png" alt="Storyboard frame 3">
+            <div class="slide-caption">
+              <h3>Frame 03</h3>
+              <p>The child scans the seed and sees a ghost image of the future plant, with roots, stem, and leaves appearing one by one.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-04.png" alt="Storyboard frame 4">
+            <div class="slide-caption">
+              <h3>Frame 04</h3>
+              <p>The child drags water and sunlight icons to the seed, helping it wake up and crack open.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-05.png" alt="Storyboard frame 5">
+            <div class="slide-caption">
+              <h3>Frame 05</h3>
+              <p>The first tiny root grows down into the soil, and an X-ray view helps the child see underground growth.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-06.png" alt="Storyboard frame 6">
+            <div class="slide-caption">
+              <h3>Frame 06</h3>
+              <p>The child drags water droplets toward the root, helping it drink water and become stronger.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-07.png" alt="Storyboard frame 7">
+            <div class="slide-caption">
+              <h3>Frame 07</h3>
+              <p>A small green shoot grows above the soil, while AR shows water moving from the roots to the leaves.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-08.png" alt="Storyboard frame 8">
+            <div class="slide-caption">
+              <h3>Frame 08</h3>
+              <p>The plant opens its leaves toward the sunlight, showing how leaves help the plant collect energy.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-09.png" alt="Storyboard frame 9">
+            <div class="slide-caption">
+              <h3>Frame 09</h3>
+              <p>The AR app reveals the saved plant condition, showing whether the plant is happy and healthy or thirsty and sad.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-10.png" alt="Storyboard frame 10">
+            <div class="slide-caption">
+              <h3>Frame 10</h3>
+              <p>The child uses watering and sunlight tools to care for the plant and help it recover.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-11.png" alt="Storyboard frame 11">
+            <div class="slide-caption">
+              <h3>Frame 11</h3>
+              <p>The plant grows flowers and fruit, while butterflies appear as a reward for caring for the plant.</p>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="assets/storyboard-12.png" alt="Storyboard frame 12">
+            <div class="slide-caption">
+              <h3>Frame 12</h3>
+              <p>The fruit opens and drops new seeds, ending the story with a message about environmental responsibility.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-btn next-btn" type="button" aria-label="Next storyboard image">
+          &#10095;
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="carouselDots">
+        <button class="dot active" type="button" aria-label="Go to storyboard frame 1"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 2"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 3"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 4"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 5"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 6"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 7"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 8"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 9"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 10"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 11"></button>
+        <button class="dot" type="button" aria-label="Go to storyboard frame 12"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROTOTYPE -->
+  <section class="section alt-section section-anchor" id="prototype">
+    <div class="section-header reveal-up">
+      <p class="section-label">Prototype / Demonstration</p>
+      <h2>What Has Been Built?</h2>
+    </div>
+
+    <div class="two-column">
+      <div class="reveal-left">
+        <p>
+          The current prototype demonstrates the core AR learning concept and selected system components. It includes
+          early plant visuals, interaction flows, AR placement concepts, and affective visualization states that represent
+          plant health, stress, and recovery.
+        </p>
+
+        <h3>Current Demonstrated Outputs</h3>
+        <ul>
+          <li>AR storybook concept prototype</li>
+          <li>3D plant model and visual state examples</li>
+          <li>UI mockups and interaction flows</li>
+          <li>Plant health, stress, and recovery visualization concepts</li>
+          <li>Demonstration screenshots and simulation previews</li>
+        </ul>
+
+        <div class="progress-box">
+          <div class="progress-header">
+            <h3>Research Progress</h3>
+            <span>50%</span>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress-fill">50% Completed</div>
+          </div>
+        </div>
+
+        <a href="assets/demo-video.mp4" class="btn primary-btn" target="_blank">View Demo Video</a>
+      </div>
+
+      <div class="video-placeholder reveal-right">
+        <p>Demo video</p>
+        <p class="small-text"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESEARCH -->
+  <section class="section section-anchor" id="research">
+    <div class="section-header reveal-up">
+      <p class="section-label">Research & Validation</p>
+      <h2>Academic Foundation and Evaluation</h2>
+    </div>
+
+    <div class="research-grid">
+      <div class="card reveal-up">
+        <h3>Research Background</h3>
+        <p>
+          The project is based on the need for more engaging environmental education methods for primary learners.
+          AR is used to help children visualize abstract plant growth concepts in a more interactive and memorable way.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-1">
+        <h3>Methodology Summary</h3>
+        <p>
+          The project follows a design and prototype-based research approach involving literature review, system design,
+          visual asset development, prototype implementation, and evaluation planning.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-2">
+        <h3>Testing Approach</h3>
+        <p>
+          Planned testing focuses on child-centered interaction, visual interpretation, emotional engagement, usability,
+          and understanding of plant conditions.
+        </p>
+      </div>
+
+      <div class="card reveal-up">
+        <h3>Validation Methods</h3>
+        <p>
+          Observation, questionnaires, feedback collection, prototype testing, and comparison of user understanding before
+          and after interaction may be used for validation.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-1">
+        <h3>Expected Findings</h3>
+        <p>
+          The project expects to show that emotional visual cues and AR interaction can improve engagement, understanding,
+          and empathy toward plant care and environmental responsibility.
+        </p>
+      </div>
+
+      <div class="card reveal-up delay-2">
+        <h3>Current Status</h3>
+        <p>
+          The project is currently under development, with approximately 50% completed. The website presents the current
+          progress, research direction, and future development plan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUTURE -->
+  <section class="section alt-section section-anchor" id="future">
+    <div class="section-header reveal-up">
+      <p class="section-label">Commercialization / Future Potential</p>
+      <h2>Real-World Value and Future Direction</h2>
+    </div>
+
+    <div class="future-grid">
+      <div class="future-card reveal-up">
+        <img src="assets/potentialUsers.png" alt="Potential users">
+        <h3>Potential Users</h3>
+        <p>Primary schools, teachers, students, parents, educational content creators, and digital learning platforms.</p>
+      </div>
+
+      <div class="future-card reveal-up delay-1">
+        <img src="assets/future-implementation.png" alt="Implementation opportunities">
+        <h3>Implementation Opportunities</h3>
+        <p>Can be used as a classroom learning aid, AR storybook product, environmental education tool, or interactive learning kit.</p>
+      </div>
+
+      <div class="future-card reveal-up delay-2">
+        <img src="assets/future-industry.png" alt="Industry relevance">
+        <h3>Industry Relevance</h3>
+        <p>Relevant to EdTech, AR learning, interactive media, digital storytelling, and child-centered educational technology.</p>
+      </div>
+
+      <div class="future-card reveal-up">
+        <img src="assets/future-development.png" alt="Future development">
+        <h3>Future Development</h3>
+        <p>Future work includes expanding story chapters, improving AR tracking, adding more plant species, and testing with real learners.</p>
+      </div>
+
+      <div class="future-card reveal-up delay-1">
+        <img src="assets/future-deployment.png" alt="Deployment pathways">
+        <h3>Deployment Pathways</h3>
+        <p>The project could be deployed as a mobile AR app with printed storybook pages for schools and home learning.</p>
+      </div>
+
+      <div class="future-card reveal-up delay-2">
+        <img src="assets/future-value.png" alt="Long term value">
+        <h3>Long-Term Value</h3>
+        <p>The system supports sustainable education by encouraging environmental awareness, empathy, and responsible behavior from an early age.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOADS -->
+  <section class="section section-anchor" id="downloads">
+    <div class="section-header reveal-up">
+      <p class="section-label">Download / Resource Repository</p>
+      <h2>Supporting Resources</h2>
+    </div>
+
+    <p class="section-intro reveal-up">
+      Selected project resources are provided below to support academic evaluation, future research, and project understanding.
+    </p>
+
+    <div class="download-grid">
+      
+
+      <a href="assets/project-proposal.pdf" class="download-card reveal-up delay-1" target="_blank">
+        <h3>Project Proposal</h3>
+        <p>Download PDF</p>
+      </a>
+
+      <a href="assets/presentation-slides.pdf" class="download-card reveal-up delay-2" target="_blank">
+        <h3>Presentation Slides</h3>
+        <p>Download PDF</p>
+      </a>
+
+      <a href="assets/user-manual.pdf" class="download-card reveal-up" target="_blank">
+        <h3>Project Poster</h3>
+        <p>Available Soon</p>
+      </a>
+
+      <a href="assets/technical-documentation.pdf" class="download-card reveal-up delay-1" target="_blank">
+        <h3>Technical Documentation</h3>
+        <p>Available Soon</p>
+      </a>
+
+      <a href="https://github.com/" class="download-card reveal-up delay-2" target="_blank">
+        <h3>GitHub Repository</h3>
+        <p>View Code</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <h2 class="reveal-up">Thank You</h2>
+
+    <p class="reveal-up delay-1">
+      Thank you for exploring our research project and digital showcase. 
+	  This project demonstrates the potential of immersive AR technology to
+	  create engaging, meaningful, and future-focused learning experiences for children.
+    </p>
+
+    <div class="footer-links reveal-up delay-2">
+      <a href="#identity">Back to Top</a>
+      <a href="#focus">My Component</a>
+      <a href="#downloads">Resources</a>
+    </div>
+
+    <p class="copyright">
+      © 2026 Palliyaguruge.S.N. IT22179258
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
